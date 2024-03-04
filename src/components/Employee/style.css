@@ -1,0 +1,50 @@
+.employeeContainer {
+  padding: 4px;
+  margin-inline: 10px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  background: #5e5e5e82 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 4px 0px #00000040;
+  mix-blend-mode: normal;
+  border: 1px solid #595959;
+  opacity: 0.4;
+  border-radius: 1rem;
+  padding: 0.7rem;
+}
+.search input {
+  width: 60%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+}
+::placeholder {
+  color: white;
+}
+.employeeList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1rem;
+  flex: 1;
+  overflow-y: scroll;
+  height: 27rem;
+  scrollbar-width: none;
+}
+.employeeList > :nth-child(odd) {
+  margin-right: auto;
+}
+
+.employeeList > :nth-child(even) {
+  margin-left: auto;
+}
+@media screen and (min-width:768px){
+  .employeeContainer {
+      margin-inline: 30%;
+  }
+}

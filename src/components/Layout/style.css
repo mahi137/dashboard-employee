@@ -1,0 +1,73 @@
+.layout {
+  height: 100vh;
+  background: transparent linear-gradient(180deg, #000000 0%, #000e09 100%) 0%
+    0% no-repeat padding-box;
+  color: white;
+  padding-top: 104px;
+}
+
+.bottomNav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: transparent linear-gradient(262deg, #0f2323 0%, #0f2323 40%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: inset 8px 4px 4px #00000040;
+  height: 63px;
+  padding: 5px;
+  display: flex;
+  color: #36a546;
+}
+.tab {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.selected {
+  background: #38383880 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 1px solid #000000;
+  opacity: 1;
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+.helpline {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 1rem;
+  right: 2rem;
+}
+.logo {
+  margin: auto;
+  width: 71px;
+  height: 70px;
+  position: relative;
+}
+.logo p {
+  background: #222222b5 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 1px solid #fffefe00;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  color: #36a546;
+}
+.children {
+    margin-top: 3rem;
+}
+@media screen and (min-width:768px){
+  .bottomNav {
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

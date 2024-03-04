@@ -1,0 +1,50 @@
+.login {
+  padding: 3rem;
+  height: 100vh;
+  width: 100%;
+  background: transparent linear-gradient(180deg, #000000 0%, #000e09 100%) 0%
+    0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  gap: 2rem;
+  padding-top: 20%;
+}
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+input {
+  background: #1f191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  padding: 10px;
+  border-radius: 1rem;
+  color: white;
+}
+button {
+  background: transparent
+    linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+    no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8cff0026;
+  opacity: 1;
+  padding: 10px;
+  border-radius: 1rem;
+  color: white;
+  margin-top: 1.5rem;
+}
+p {
+    text-align: center;
+}
+
+@media screen and (min-width:768px){
+    .login {
+        padding-top: 5rem;
+        padding-inline: 30%;
+    }
+}

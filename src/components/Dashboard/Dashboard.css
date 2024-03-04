@@ -1,0 +1,40 @@
+.title {
+  text-align: center;
+  letter-spacing: 0.01px;
+  color: #ffffffb3;
+  opacity: 0.84;
+  background: #1a2c2c99 0% 0% no-repeat padding-box;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+.dashboardContainer {
+  padding: 4px;
+  background: #5e5e5e2d 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border-radius: 1rem;
+  margin-inline: 10px;
+}
+.dashboardBody {
+  padding-inline: 10px;
+  padding-top: 1rem;
+}
+.dashboardItem {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboardItemRight p {
+  color: #36a546;
+}
+.percentage {
+  background: #36a54680 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 1px solid #36a546;
+  padding: 5px;
+  border-radius: 10px;
+  margin-block: 01rem;
+}
+@media screen and (min-width:768px){
+  .dashboardContainer {
+      margin-inline: 30%;
+  }
+}
